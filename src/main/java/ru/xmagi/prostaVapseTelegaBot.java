@@ -136,8 +136,15 @@ public class prostaVapseTelegaBot {
         for(var i = 0; i < prostaVapseTelegaBotSet.EngPreInit.length; i++) {
             str = str.replace(prostaVapseTelegaBotSet.EngPreInit[i], prostaVapseTelegaBotSet.RusPreInit[i]);
         }
+        var strArr = str.toCharArray();
         maincycle:
-        for (var ch : str.toCharArray()) {
+        for(int i_ = 0; i_ < strArr.length; i_ ++) {
+            var ch = strArr[i_];
+            if (ch == 'j' && ( (i_ + 1 < strArr.length && strArr[i_ + 1] == ' ')) || i_ + 1 == strArr.length )   {
+                sb.append("ь");
+                continue;
+            }
+            // for (var ch : str.toCharArray()) {
             for (int i = 0; i < prostaVapseTelegaBotSet.alphabitEng.length; i++) {
                 if (ch == prostaVapseTelegaBotSet.alphabitEng[i]) {
                     var appendData = prostaVapseTelegaBotSet.alphabit[i];
