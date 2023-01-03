@@ -41,21 +41,26 @@ class prostaVapseTelegaBotSet {
             'a', 'b', 'v', 'g', 'd', 'e', 'e', 'z', 'с', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'r', 's', 't', 'u', 'f', 'x', 'c', '\''
     };
     public static final String EngPreInit[] = new String[] {
-            "ja",
-            "ch",
-            "lj",
-            "tj",
+            "yu",
+            "ya",
+            "yo",
+            "jo",
             "zh",
-            "sja",
-            "tj",
-            "ju"
+            "shh",
+            "sh",
+            "ch",
+            "tvz",
+            "mjz",
+            "je",
+            "ju",
+            "ja"
     };
     public static final String RusPreInit[] = new String[] {
+      "ю",
       "я",
-      "ч",
-      "ть",
-      "ж",
-      "ль", "я", "ть", "ю"
+      "ё",
+      "ё",
+      "ж", "щ", "ш", "ч", "ъ", "ь", "э", "ю","я"
     };
 }
 
