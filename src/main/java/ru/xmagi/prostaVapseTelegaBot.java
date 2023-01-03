@@ -38,7 +38,7 @@ class prostaVapseTelegaBotSet {
 
     };
     public static final char alphabitEng[] = new char[]{
-            'a', 'b', 'v', 'g', 'd', 'e', 'e', 'z', 'с', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'r', 's', 't', 'u', 'f', 'x', 'c', '\''
+            'a', 'b', 'v', 'g', 'd', 'e', 'e', 'z', 'с', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'r', 's', 't', 'u', 'f', 'h', 'c', '\''
     };
     public static final String EngPreInit[] = new String[] {
             "yu",
